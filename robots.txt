@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hubdeferramentas.com/sitemap.xml
+
+# Diretrizes específicas para crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Páginas prioritárias para indexação
+Allow: /sorteio/
+Allow: /numeros/
+Allow: /contador/
+Allow: /blog/
+
+# Permitir acesso aos recursos estáticos
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Disallow para arquivos temporários e de desenvolvimento
+Disallow: /temp/
+Disallow: /*.tmp$
+Disallow: /backup/
+Disallow: /dev/
+
+# Informações de contato para crawlers
+# Contact: admin@hubdeferramentas.com
